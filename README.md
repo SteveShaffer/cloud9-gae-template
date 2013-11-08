@@ -51,3 +51,14 @@ it is listening on the Cloud9 port and ip address so our proxy can find it.
 ```
 dev_appserver.py -a $IP -p $PORT .
 ```
+
+### Preview the app
+
+Once the app is running, you can preview it by navigating to a URL in the form
+of the following:
+
+```
+http://<your-c9-workspace-name>.<your-c9-username>.c9.io
+```
+
+For example: http://cloud9-gae-template.fjakobs.c9.io
